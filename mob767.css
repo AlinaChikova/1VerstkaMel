@@ -1,0 +1,83 @@
+@media screen and (max-width: 900px) {
+
+/*	body {
+		min-width: 600px;
+	}*/
+
+
+	.card {
+		width: 50%;
+	}
+
+	main {
+		padding-right: 50px;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	main>div {
+		padding-top: 15px;
+	}
+
+	#header-menu {
+		display: none;
+	}
+
+	#rigth-buttons {
+		display: none;		
+	}
+
+	#logo {		
+		position: absolute;
+   		margin-left: -6%;
+   		left: 50%;
+	}
+
+	header>div {
+		padding-right: 40px;
+		min-width: 100px;
+		
+	}
+
+	#mob-menu {
+		height: 70px;
+		width: auto;
+		float: right;
+		display: block;
+		text-align: right;
+	}
+
+	#mob-search {
+		height: 70px;
+		    width: auto;
+		float: left;
+		display: block;
+	}
+
+	#mob-search>i {
+		color: #FFF;
+		font-size: 170%;
+    	padding-top: 80%;
+	}
+
+	#mob-menu>i {
+		color: #FFF;
+		font-size: 200%;
+   		padding-top: 60%;
+	}
+
+	#f-menu {
+		display: none;
+	}
+
+	#link {
+		display: none;
+	}
+
+	#copyright {
+		display: none;
+	}
+
+}

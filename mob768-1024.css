@@ -1,0 +1,21 @@
+@media screen and (min-width: 900px) and (max-width: 1024px){
+	.card {
+		width: 33%;
+	}
+		
+	#blog {
+		display: none;
+	}
+
+	.icon {
+		font-weight: 600;
+	}
+
+	#edit {
+		font-weight: 500;
+	}
+
+	header>div {
+		min-width: 100px;
+	}
+}
