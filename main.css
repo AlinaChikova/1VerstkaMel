@@ -12,7 +12,6 @@ main>div {
 #menu {
 	margin-top: 0;
 	padding-top: 20px;
-	margin-bottom: 18px;
 	height: 50px;	
 	min-width: 940px;
     overflow: hidden;
@@ -20,7 +19,7 @@ main>div {
 
 #menu>ul {
 	padding-left: 0;
-	padding-top: 16px;
+	padding-top: 12px;
 	margin:0;
 }
 
@@ -40,8 +39,7 @@ main>div {
 	text-decoration: none;	
   	display: inline-block;
   	color: #000;
-  	margin-right: 27px;
-  	font-style: bold;
+  	margin-right: 27px;  	
  }
 
  #menu>ul>li>a:hover {
@@ -53,44 +51,49 @@ main>div {
  	max-width: 1210px;
  	height: auto; 	
  	padding-bottom: 40px;
- 	margin: -10px;
+ 	margin: -15px;
+ 	display: table;
  }
 
 .card {
- 	height:440px;
- 	width: 280px;
- 	background-color: #fff;
- 	margin: 0.8%;
- 	display: inline-block;
+ 	margin: 0;
+    height: 440px;
+    width: 25%;
+    padding: 0.8%;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-bottom: 1.5%; 
  }
 
-.card>div>a {
+.card>a {
  	text-decoration: none;
- 	width: 280px;
+	width: 100%;
     height: 440px;
+    margin: 10px;
+    background: #fff;
     display: block;
 }
 
-.card>div>a:hover .card-image { 	
+.card>a:hover .card-image { 	
   	opacity: 0.9;
   	transition-timing-function: ease-out;  	
   	transition-duration: 0.3s;  	
 }
 
-.card>div>a:hover .card-title { 	
+.card>a:hover .card-title { 	
   	color:#47B3AC;
   	transition-timing-function: ease-out;  	
   	transition-duration: 0.3s; 
 }
 
 .card-image {
- 	width: 280px;
- 	height: 220px; 	
+    width: 100%;
 }
 
 .card-image>img {
- 	width: 280px;
- 	height: 220px; 	
+    max-width: 100%;
+    height: auto;
 }
 
 .card-tag {
@@ -106,7 +109,7 @@ main>div {
 
 .card-title { 	
  	width: 230px;
- 	height: 107px;
+ 	height: 130px;
  	text-align: center;
  	color: #000;
  	font: 700 14px/1.2 Proxima,sans-serif;
@@ -117,8 +120,8 @@ main>div {
 
 .card-time {
 	text-align: center;
-	height: 23px;
-	margin-bottom: 25px;
+	height: 23px;	
+	padding-bottom: 25px;    
 }
 
 .card-time>span {
@@ -133,7 +136,8 @@ main>div {
 #but {
  	width: 100%;
  	height: 46px; 	
- 	padding-bottom: 55px;
+ 	padding-bottom: 15px;
+ 	padding-top: 15px;
 }
 
 #article {
