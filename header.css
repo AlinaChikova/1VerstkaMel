@@ -85,6 +85,10 @@ header>div {
 	margin-top:20px;
 }
 
+#rigth-buttons>button:focus {	
+	outline: none;
+}
+
 .icon {
 	color: #FFF;
 	background-color: #212121;	
