@@ -106,6 +106,7 @@
 
 #f-menu>a:hover {
 	color: #47b3ac;
+	transition-duration: 0.3s; 
 }
 
 #f-menu>a:last-child {
@@ -122,6 +123,7 @@
 
 #link>a:hover {
 	color: #47b3ac;
+	transition-duration: 0.3s; 
 }
 
 #link>a {

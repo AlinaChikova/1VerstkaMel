@@ -17,7 +17,12 @@ header>div {
     max-width: 1210px
 }
 
-#logo>img {
+#logo>a {
+	heigth: 25px;
+	width: 86px;
+}
+
+#logo>a>img {
 	heigth: 25px;
 	width: 86px;
 }
@@ -72,7 +77,8 @@ header>div {
 }
 
 #header-menu>ul>li>a:hover {
-    color: #45b5ae;    
+    color: #45b5ae;   
+    transition-duration: 0.3s; 
 }
 
 #header-menu>ul>li:first-child>a {
@@ -97,10 +103,11 @@ header>div {
 
 .icon:hover {
 	color: #45b5ae; 	
+	transition-duration: 0.3s; 
 }
 
 .icon>span {
-	font: 500 13px Proxima,sans-serif;	
+	font: 500 12px Proxima,sans-serif;	
 	text-transform: uppercase;
 }
 
@@ -122,10 +129,10 @@ header>div {
 #in:hover {
 	background-color: #4bc0b8; 
 	transition-timing-function: ease-out;  	
-  	transition-duration: 0.3s;
+  	transition-duration: 0.3s; 
 }
 
 #blog {
- 	font: 600 13px/17px Proxima,sans-serif;
+ 	font: 600 12px Proxima,sans-serif;
  	text-transform: uppercase;
 }

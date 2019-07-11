@@ -46,6 +46,7 @@ main>div {
 
  #menu>ul>li>a:hover {
 	color: #45b5ae; 
+	transition-duration: 0.3s; 
 }
 
  #frontpage {
@@ -79,7 +80,7 @@ main>div {
 .card>div>a:hover .card-title { 	
   	color:#47B3AC;
   	transition-timing-function: ease-out;  	
-  	transition-duration: 0.3s;
+  	transition-duration: 0.3s; 
 }
 
 .card-image {
@@ -150,6 +151,7 @@ main>div {
 
 #article:hover {
  	background-color: #4bc0b8;
+ 	transition-duration: 0.3s; 
 }
 
 #article:focus {
