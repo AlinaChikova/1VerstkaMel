@@ -5,8 +5,8 @@ main {
 
 main>div {
 	max-width: 1210px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #menu {
@@ -14,7 +14,7 @@ main>div {
 	padding-top: 20px;
 	height: 50px;	
 	min-width: 940px;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #menu>ul {
@@ -37,9 +37,9 @@ main>div {
 	margin: 0;	
 	font: 600 14px/20px Proxima,sans-serif;
 	text-decoration: none;	
-  	display: inline-block;
-  	color: #000;
-  	margin-right: 27px;  	
+  display: inline-block;
+  color: #000;
+  margin-right: 27px;  	
  }
 
  #menu>ul>li>a:hover {
@@ -57,54 +57,54 @@ main>div {
 
 .card {
  	margin: 0;
-    height: 440px;
-    width: 25%;
-    padding: 0.8%;
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    margin-bottom: 1.5%; 
+  height: 440px;
+  width: 25%;
+  padding: 0.8%;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  margin-bottom: 1.5%; 
  }
 
 .card>a {
  	text-decoration: none;
 	width: 100%;
-    height: 440px;
-    margin: 10px;
-    background: #fff;
-    display: block;
+  height: 440px;
+  margin: 10px;
+  background: #fff;
+  display: block;
 }
 
 .card>a:hover .card-image { 	
-  	opacity: 0.9;
-  	transition-timing-function: ease-out;  	
-  	transition-duration: 0.3s;  	
+  opacity: 0.9;
+  transition-timing-function: ease-out;  	
+  transition-duration: 0.3s;  	
 }
 
 .card>a:hover .card-title { 	
-  	color:#47B3AC;
-  	transition-timing-function: ease-out;  	
-  	transition-duration: 0.3s; 
+  color:#47B3AC;
+  transition-timing-function: ease-out;  	
+  transition-duration: 0.3s; 
 }
 
 .card-image {
-    width: 100%;
+  width: 100%;
 }
 
 .card-image>img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .card-tag {
  	width: 230px;
  	height: auto;
  	font: 800 11px/1.2 Proxima,sans-serif;   
-    min-width: 20px;
-    letter-spacing: .5px;
-    color: #ec345e;
-    padding: 20px 25px 7px 25px;
-    text-align: center;
+  min-width: 20px;
+  letter-spacing: .5px;
+  color: #ec345e;
+  padding: 20px 25px 7px 25px;
+  text-align: center;
 }
 
 .card-title { 	
@@ -162,37 +162,9 @@ main>div {
 	outline: none;
 }
 
-/*@media screen and (min-width: 768px) and (max-width: 1024px){
-	.card {
-		width: 33%;
-	}
-
-	main {
-		
-	}
-}*/
- 
-/*@media screen and (max-width: 767px){
-	.card {
-		width: 50%;
-	}
-
-	main {
-		padding-right: 50px;
-
-	}
-
-	#menu {
-		display: none;
-	}
-
-	main>div {
-		    padding-top: 15px;
-	}
-
+#open-mob-menu {
+  display: block;
 }
-*/
-
 
 
 

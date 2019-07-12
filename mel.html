@@ -4,14 +4,14 @@
 	<head> 
 		<meta charset="UTF-8"> 
 		<title>Блоги | &laquo;Мел&raquo;. Полезное, понятное и удобное онлайн-медиа про образование и детей</title> 
-		<!-- <link rel="stylesheet" type="text/css" href="melStyle.css">  -->
-		<link rel="stylesheet" type="text/css" href="style.css"> 
-		<link rel="stylesheet" type="text/css" href="header.css"> 
-		<link rel="stylesheet" type="text/css" href="main.css"> 
-		<link rel="stylesheet" type="text/css" href="footer.css"> 
-		<link rel="stylesheet" type="text/css" href="mob768-1024.css"> 
-		<link rel="stylesheet" type="text/css" href="mob767.css"> 	
+		<link rel="stylesheet" type="text/css" href="./css/style.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/header.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/main.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/footer.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/mob768-1024.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/mob767.css"> 	
 		<script src="https://kit.fontawesome.com/ddd4a66385.js"></script>
+
 		
 	</head>
 
@@ -19,10 +19,12 @@
 		<header>
 			<div>
 				<div id="mob-search">
-					<i class="fas fa-search" >	</i>
+					
+						<i class="fas fa-search" >	</i>
+					
 				</div>
 				<div id="logo">
-					<a href=""><img src="logo-mel.png" alt="mel"></a>
+					<a href=""><img src="image/logo-mel.png" alt="mel"></a>
 				</div>
 				<div id="header-menu">
 					<ul>
@@ -44,11 +46,25 @@
 						<button id="in">вход</button>
 				</div>
 				<div id="mob-menu">
-					<i class="fas fa-bars"></i>
+					<button id="openMenu">
+						<img src="image/delete.png" id="openMenuImg">
+						<i class="fas fa-bars" id="openMenuI"></i>
+					</button>
+					
 				</div>
 			</div>
 		</header>
 		<main>
+			<div id = "iconMenu">
+				<ul>
+						<li><a href="">Тексты</a></li>
+						<li><a href="">Афиша</a></li>
+						<li><a href="">Книги</a></li>
+						<li><a href="">Школы</a></li>
+				</ul>
+			</div>
+
+
 			<div>
 				<div id="menu">
 					<ul>
@@ -123,55 +139,11 @@
 									</div>
 							</div>
 						</a>
-					</div> 
-					<div class="card">
-						<a href="">
-							<div class="card-image">
-								<img src="https://image.mel.fm/i/K/K9RVAmDinz/640.jpg">
-							</div>
-							<div>
-								<div class="card-tag">БЛОГИ</div>
-								<div class="card-title">Танец для детей: почему не только балет</div>
-									<div class="card-time">
-										<i class="far fa-clock"></i>
-										<span>Читать: 2 мин</span>
-									</div>
-							</div>
-						</a>
-					</div> 
-					<div class="card">
-						<a href="">
-							<div class="card-image">
-								<img src="https://image.mel.fm/i/K/K9RVAmDinz/640.jpg">
-							</div>
-							<div>
-								<div class="card-tag">БЛОГИ</div>
-								<div class="card-title">Танец для детей: почему не только балет</div>
-									<div class="card-time">
-										<i class="far fa-clock"></i>
-										<span>Читать: 2 мин</span>
-									</div>
-							</div>
-						</a>
-					</div> 
-					<div class="card">
-						<a href="">
-							<div class="card-image">
-								<img src="https://image.mel.fm/i/K/K9RVAmDinz/640.jpg">
-							</div>
-							<div>
-								<div class="card-tag">БЛОГИ</div>
-								<div class="card-title">Танец для детей: почему не только балет</div>
-									<div class="card-time">
-										<i class="far fa-clock"></i>
-										<span>Читать: 2 мин</span>
-									</div>
-							</div>
-						</a>
-					</div> 															
+					</div> 					
+																	
 				</div>
 				<div id="but">
-					<button id="article">Больше статей</button>
+					<button id="article" onclick="more()">Больше статей</button>
 				</div>
 			</div>
 		</main>
@@ -184,7 +156,7 @@
 							<input type="email" name="email" id="email" placeholder="Введите свой e-mail">
 							<div id="plane-button">
 							<button type="submit" id="plane">
-	  							  <img src="plane.png">
+	  							  <img src="image/plane.png">
 	  						</button>		
 	  						</div>	  								
 						</div>
@@ -237,5 +209,7 @@
 		</footer>	
 
 	</body>
+
+		<script type="text/javascript" src="script.js"></script>
 
 </html>
