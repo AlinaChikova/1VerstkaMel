@@ -3,9 +3,11 @@
 	.card {
 		width: 50%;
 	}
+
 	.card-tag {
 		width:auto;
 	}
+
 	.card-title {
 		width:auto;
 	}
@@ -38,8 +40,7 @@
 
 	header>div {
 		padding-right: 40px;
-		min-width: 100px;
-		
+		min-width: 100px;		
 	}
 
 	#mob-menu {
@@ -73,8 +74,6 @@
   		background-color: transparent;
     	border: none;
 	}
-  
-
 
 	#f-menu {
 		display: none;
@@ -110,13 +109,11 @@
 		width: 100%;
 		heigth: 40px;
 		vertical-align: middle;
-
 	}
 
 	#iconMenu> ul>li>a:hover {
 	    color: #45b5ae;   
 	    transition-duration: 0.3s; 
-
 	}
 
 	#iconMenu> ul {
@@ -127,33 +124,26 @@
 	    background-color: #212121;
 	}
 
-
-
-
 	#iconMenu> ul>li {
  		list-style-type: none; 
  		padding-bottom: 15px;
 	}
 
-
 	#openMenu>img {
-	display: none;
-	
-    width: 40px;
-    padding-top: 15px;
+		display: none;	
+	    width: 40px;
+	    padding-top: 15px;
 	}
 
 	#openMenu {
 		padding: 0;
 	}
 
-	#openMenu:focus{
+	#openMenu:focus {
 		outline: none;	
 	}
-	#openMenu:hover{
-		cursor: pointer;
 
-	
+	#openMenu:hover {
+		cursor: pointer;	
 	}
-}
 }

@@ -91,15 +91,9 @@ function more() {
     return j++;
 };
 
-
-
-document.getElementById('openMenu').onclick = function() {
-      document.getElementById('iconMenu').style.display = 'block';
-};
-
 document.getElementById('openMenu').onclick = function() {
 
-	if (document.getElementById('iconMenu').style.display == 'block'){		
+	if (document.getElementById('iconMenu').style.display == 'block') {		
     	document.getElementById('iconMenu').style.display = 'none';
     	document.getElementById('openMenuI').style.display = 'block';
     	document.getElementById('openMenuImg').style.display = 'none';

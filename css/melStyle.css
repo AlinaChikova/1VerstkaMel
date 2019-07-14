@@ -140,11 +140,11 @@ main {
   	color: #000;
   	margin-right: 27px;
   	font-style: bold;
- }
+}
 
  #menu>ul>li>a:hover {
 	color: #45b5ae; 
- }
+}
 
 #menu>ul>li {
 	display: inline-block;		
@@ -167,17 +167,17 @@ main {
     overflow: hidden;
 }
 
- #menu>ul>li:last-child>a {
+#menu>ul>li:last-child>a {
 	color: #45b5ae; 
- }
+}
 
- #but {
+#but {
  	width: 100%;
  	height: 46px; 	
  	padding-bottom: 55px;
- }
+}
 
- #article {
+#article {
  	height: 46px;
  	width: auto;
  	border-radius: 23px;
@@ -188,57 +188,57 @@ main {
  	font-size: 17px;
  	color: #FFF;
  	margin-left: 41%;
- }
+}
 
-  #article:hover {
+#article:hover {
  	background-color: #4bc0b8;
- }
+}
 
- #blog {
+#blog {
  	font: 600 13px/17px Proxima,sans-serif;
  	text-transform: uppercase;
- }
+}
 
- #message {
+#message {
  	width: 100%;
 	height: 290px;
 	background-image: url(https://static.mel.fm/images/n-common/b-newsletter-signup-form/background.jpg?h=80feab68)
- }
+}
 
- #foot {
+#foot {
  	width: 100%;
 	min-height: 230px;	
 	background-color: #1C1C1C;
 	text-align: center;
 	padding-top: 0;
- }
+}
 
- #foot>div {
+#foot>div {
  	box-sizing: border-box;
     width: 100%;
     min-height: 230px;
     padding: 55px 40px 56px;
- }
+}
 
- #title {
+#title {
  	color: #FFF;
  	text-align: center;
  	font: 700 30px/37px Proxima,sans-serif;
  	padding-top: 66px;
  	margin-bottom: 20px;
- }
+}
 
- #text {
+#text {
  	color: #FFF;
  	text-align: center;
  	font: 14px/20px Proxima,sans-serif; 
  	opacity: .8;
- }
+}
 
- #copyright {
- 	color: #fff;
+#copyright {
+	color: #fff;
  	font: 14px/24px roboto-regular,Arial,sans-serif;
- }
+}
 
 #f-menu>a {
 	margin: 0;		
@@ -255,6 +255,7 @@ main {
 #f-menu>a:last-child {
 	color: #47b3ac;
 }
+
 #f-menu {
 	margin-bottom: 27px;
 }
@@ -368,39 +369,38 @@ main {
 }
 
 main>div {
-	/*width: 1210px;*/
 	max-width: 1210px;
     margin-left: auto;
     margin-right: auto;
 }
 
- #frontpage {
- 	/*width: 100%;*/
- 	max-width: 1210px;
+#frontpage {
+  	max-width: 1210px;
  	height: auto; 	
  	padding-bottom: 40px;
  	margin: -10px;
- }
+}
 
- .card {
+.card {
  	height:440px;
  	width: 280px;
  	background-color: #fff;
  	margin: 0.8%;
  	display: inline-block;
- }
+}
 
 .card-image {
  	width: 280px;
  	height: 220px;
  	
- }
- .card-image>img {
+}
+
+.card-image>img {
  	width: 280px;
  	height: 220px; 	
- }
+}
 
- .card-tag {
+.card-tag {
  	width: 230px;
  	height: auto;
  	font: 800 11px/1.2 Proxima,sans-serif;   
@@ -409,9 +409,9 @@ main>div {
     color: #ec345e;
     padding: 20px 25px 7px 25px;
     text-align: center;
- }
+}
 
- .card-title { 	
+.card-title { 	
  	width: 230px;
  	height: 107px;
  	text-align: center;
@@ -420,7 +420,7 @@ main>div {
  	font-size: 21.5px;
  	padding: 25px ;
  	padding-top: 0px;
- }
+}
 
 .card-time {
 	text-align: center;
@@ -428,32 +428,31 @@ main>div {
 	margin-bottom: 25px;
 }
 
- .card-time>span {
+.card-time>span {
  	color: #a1a3a3;
  	text-align: center;
  	font: 600 13px/1.2 Proxima,sans-serif;
- }
+}
 
- .card-time>i {
+.card-time>i {
  	color: #a1a3a3;
- }
+}
 
- .card>div>a {
+.card>div>a {
  	text-decoration: none;
  	width: 280px;
     height: 440px;
     display: block;
- }
+}
 
-  .card>div>a:hover .card-image{ 	
+.card>div>a:hover .card-image{ 	
   	opacity: 0.9;
   	transition-timing-function: ease-out;  	
   	transition-duration: 0.3s;  	
- }
+}
 
-
-  .card>div>a:hover .card-title{ 	
+.card>div>a:hover .card-title{ 	
   	color:#47B3AC;
   	transition-timing-function: ease-out;  	
   	transition-duration: 0.3s;
- }
+}

@@ -40,7 +40,7 @@ main>div {
   display: inline-block;
   color: #000;
   margin-right: 27px;  	
- }
+}
 
  #menu>ul>li>a:hover {
 	color: #45b5ae; 
@@ -53,7 +53,7 @@ main>div {
  	padding-bottom: 40px;
  	margin: -15px;
  	display: table;
- }
+}
 
 .card {
  	margin: 0;
@@ -64,7 +64,7 @@ main>div {
   display: block;
   float: left;
   margin-bottom: 1.5%; 
- }
+}
 
 .card>a {
  	text-decoration: none;
@@ -129,6 +129,7 @@ main>div {
  	text-align: center;
  	font: 600 13px/1.2 Proxima,sans-serif;
 }
+
 .card-time>i {
 	color: #a1a3a3;
 }
@@ -162,8 +163,8 @@ main>div {
 	outline: none;
 }
 
-#open-mob-menu {
-  display: block;
+#iconMenu {
+  display: none;
 }
 
 
