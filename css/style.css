@@ -4,5 +4,43 @@ body {
 	overflow-x: hidden;
 }
 
+#window {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.43)    
+}
+
+#window>div {
+    height: 200px;
+    width: 200px;
+    border: 3px outset white;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#close {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    float: right;
+}
+
+#close:focus {
+	outline: none;
+}
+
+#window>div>p {
+	font-size: 20px;
+    color: white;
+    margin-top: 40%;
+}
 
 

@@ -14,6 +14,14 @@
 	</head>
 
 	<body> 
+
+		<div id="window" onClick = 'closeWindow()'>
+			<div>
+				<button id="close" onClick="closeWindow()">X</button>
+				<p>email</p>
+			</div>
+		</div>
+
 		<header>
 			<div>
 				<div id="mob-search">					
@@ -159,13 +167,14 @@
 			<div id="message">
 				<p id ="title">Рассылка &laquo;Мела&raquo;</p>
 				<div>
-					<form>
+					<form id="send-email">
 						<div id="input">
-							<input type="email" name="email" id="email" placeholder="Введите свой e-mail">
+							<input type="email" name="email" id="email" placeholder="Введите свой e-mail" required  
+							pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" >
 							<div id="plane-button">
-							<button type="submit" id="plane">
-	  							  <img src="image/plane.png">
-	  						</button>		
+								<button type="submit" id="plane" onclick="checkEmail(); event.preventDefault();">
+		  							  <img src="image/plane.png">
+		  						</button>		
 	  						</div>	  								
 						</div>
 					</form>

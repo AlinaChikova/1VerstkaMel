@@ -61,33 +61,33 @@ content = [ [	{
 				}] 
 			];
 
-
 var parent = document.getElementById('frontpage');
 			
 var j = 0;
 
 function more() {	
-										
-	for (let i = 0; i < 4; i++) {
-		var div = document.createElement('div');
-		div.innerHTML = 
-			`<div class="card">
-				<a href="">
-					<div class="card-image">
-						<img src="${content[j][i].image}">
-					</div>
-					<div>
-						<div class="card-tag">${content[j][i].tag}</div>
-						<div class="card-title">${content[j][i].title}</div>
-						<div class="card-time">
-							<i class="far fa-clock"></i>
-							<span>${content[j][i].time}</span>
+	if (j<=content.length) {						
+		for (let i = 0; i < 4; i++) {
+			var div = document.createElement('div');
+			div.innerHTML = 
+				`<div class="card">
+					<a href="">
+						<div class="card-image">
+							<img src="${content[j][i].image}">
 						</div>
-					</div>
-				</a>
-			</div> `;
-		parent.appendChild(div);
-	}						
+						<div>
+							<div class="card-tag">${content[j][i].tag}</div>
+							<div class="card-title">${content[j][i].title}</div>
+							<div class="card-time">
+								<i class="far fa-clock"></i>
+								<span>${content[j][i].time}</span>
+							</div>
+						</div>
+					</a>
+				</div> `;
+			parent.appendChild(div);
+		}	
+	}					
     return j++;
 };
 
@@ -103,3 +103,27 @@ document.getElementById('openMenu').onclick = function() {
 		document.getElementById('openMenuImg').style.display = 'block';
 	}
 };
+
+function showWindow() {
+	document.getElementById('window').style.display = 'block';
+
+};
+
+function closeWindow() {
+	document.getElementById('window').style.display = 'none';
+};
+
+function checkEmail() {
+
+	var reg = /[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}/;
+	var email = document.getElementById( "email" ).value;
+
+	if ( reg.test( email )) {
+		showWindow();
+	} else if ( email.length < 1 ) {
+		alert( "Введите email" );
+	} else {
+		alert( "Неверный формат" );
+	};
+};
+
