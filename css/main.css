@@ -5,8 +5,8 @@ main {
 
 main>div {
 	max-width: 1210px;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #menu {
@@ -14,7 +14,7 @@ main>div {
 	padding-top: 20px;
 	height: 50px;	
 	min-width: 940px;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 #menu>ul {
@@ -37,9 +37,9 @@ main>div {
 	margin: 0;	
 	font: 600 14px/20px Proxima,sans-serif;
 	text-decoration: none;	
-  display: inline-block;
-  color: #000;
-  margin-right: 27px;  	
+	display: inline-block;
+	color: #000;
+	margin-right: 27px;  	
 }
 
  #menu>ul>li>a:hover {
@@ -48,74 +48,74 @@ main>div {
 }
 
  #frontpage {
- 	max-width: 1210px;
- 	height: auto; 	
- 	padding-bottom: 40px;
- 	margin: -15px;
- 	display: table;
+	max-width: 1210px;
+	height: auto; 	
+	padding-bottom: 40px;
+	margin: -15px;
+	display: table;
 }
 
 .card {
- 	margin: 0;
-  height: 440px;
-  width: 25%;
-  padding: 0.8%;
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  margin-bottom: 1.5%; 
-  min-height: fit-content;
+	margin: 0;
+	height: 440px;
+	width: 25%;
+	padding: 0.8%;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	margin-bottom: 1.5%; 
+	min-height: fit-content;
 }
 
 .card>a {
- 	text-decoration: none;
+	text-decoration: none;
 	width: 100%;
-  margin: 10px;
-  background: #fff;
-  display: block;
+	margin: 10px;
+	background: #fff;
+	display: block;
 }
 
 .card>a:hover .card-image { 	
-  opacity: 0.9;
-  transition-timing-function: ease-out;  	
-  transition-duration: 0.3s;  	
+	opacity: 0.9;
+	transition-timing-function: ease-out;  	
+	transition-duration: 0.3s;  	
 }
 
 .card>a:hover .card-title { 	
-  color:#47B3AC;
-  transition-timing-function: ease-out;  	
-  transition-duration: 0.3s; 
+	color: #47B3AC;
+	transition-timing-function: ease-out;  	
+	transition-duration: 0.3s; 
 }
 
 .card-image {
-  width: 100%;
+	width: 100%;
 }
 
 .card-image>img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .card-tag {
- 	width: 230px;
- 	height: auto;
- 	font: 800 11px/1.2 Proxima,sans-serif;   
-  min-width: 20px;
-  letter-spacing: .5px;
-  color: #ec345e;
-  padding: 20px 25px 7px 25px;
-  text-align: center;
+	width: 230px;
+	height: auto;
+	font: 800 11px/1.2 Proxima,sans-serif;   
+	min-width: 20px;
+	letter-spacing: .5px;
+	color: #ec345e;
+	padding: 20px 25px 7px 25px;
+	text-align: center;
 }
 
 .card-title { 	
- 	width: 230px;
- 	height: 130px;
- 	text-align: center;
- 	color: #000;
- 	font: 700 14px/1.2 Proxima,sans-serif;
- 	font-size: 21.5px;
- 	padding: 25px ;
- 	padding-top: 0px;
+	width: 230px;
+	height: 130px;
+	text-align: center;
+	color: #000;
+	font: 700 14px/1.2 Proxima,sans-serif;
+	font-size: 21.5px;
+	padding: 25px ;
+	padding-top: 0px;
 }
 
 .card-time {
@@ -125,9 +125,9 @@ main>div {
 }
 
 .card-time>span {
- 	color: #a1a3a3;
- 	text-align: center;
- 	font: 600 13px/1.2 Proxima,sans-serif;
+	color: #a1a3a3;
+	text-align: center;
+	font: 600 13px/1.2 Proxima,sans-serif;
 }
 
 .card-time>i {
@@ -135,28 +135,28 @@ main>div {
 }
 
 #but {
- 	width: 100%;
- 	height: 46px; 	
- 	padding-bottom: 15px;
- 	padding-top: 15px;
+	width: 100%;
+	height: 46px; 	
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 #article {
- 	height: 46px;
- 	width: auto;
- 	border-radius: 23px;
- 	padding-right: 42px;
- 	padding-left: 42px;
- 	border: none;
- 	background-color: #45b5ae; 
- 	font-size: 17px;
- 	color: #FFF;
- 	margin-left: 41%;
+	height: 46px;
+	width: auto;
+	border-radius: 23px;
+	padding-right: 42px;
+	padding-left: 42px;
+	border: none;
+	background-color: #45b5ae; 
+	font-size: 17px;
+	color: #FFF;
+	margin-left: 41%;
 }
 
 #article:hover {
- 	background-color: #4bc0b8;
- 	transition-duration: 0.3s; 
+	background-color: #4bc0b8;
+	transition-duration: 0.3s; 
 }
 
 #article:focus {

@@ -26,8 +26,8 @@ header>div {
 }
 
 #window {
-	display:none;
-}
+	display: none;
+} 
 
 #mob-search {
 	display: none;
@@ -206,24 +206,24 @@ main {
 }
 
 .card>a:hover .card-image { 	
-  opacity: 0.9;
-  transition-timing-function: ease-out;  	
-  transition-duration: 0.3s;  	
+ 	opacity: 0.9;
+  	transition-timing-function: ease-out;  	
+ 	transition-duration: 0.3s;  	
 }
 
 .card>a:hover .card-title { 	
-  color:#47B3AC;
-  transition-timing-function: ease-out;  	
-  transition-duration: 0.3s; 
+ 	color:#47B3AC;
+	transition-timing-function: ease-out;  	
+ 	transition-duration: 0.3s; 
 }
 
 .card-image {
-  width: 100%;
+ 	width: 100%;
 }
 
 .card-image>img {
-  max-width: 100%;
-  height: auto;
+  	max-width: 100%;
+ 	height: auto;
 }
 
 .card-tag {
@@ -309,13 +309,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 #message>div {
 	width: 420px;
 	height: 40px;
-
 }
 
 #message>div>div {
@@ -328,10 +326,6 @@ main {
  	color: #FFF;
  	text-align: center;
  	font: 700 30px/37px Proxima,sans-serif;
- }
-
-#input {
-
 }
 
 #email {
@@ -400,8 +394,8 @@ main {
 }
 
 #f-menu {
-margin-bottom: 27px;
-text-align: center;
+	margin-bottom: 27px;
+	text-align: center;
 }
 
 #f-menu>a {

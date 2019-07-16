@@ -1,4 +1,4 @@
-content = [ [	{	
+var content = [ [	{	
 				 	tag: "БЛОГИ",
 					title: "6 лайфхаков, как привить любовь к чтению",
 					time: "Читать: 1 мин",
@@ -90,33 +90,19 @@ function more() {
     return j++;
 };
 
-// document.getElementById('openMenu').onclick = function() {
-
-// 	if (document.getElementById('iconMenu').style.display == 'block') {		
-//     	document.getElementById('iconMenu').style.display = 'none';
-//     	document.getElementById('openMenuI').style.display = 'block';
-//     	document.getElementById('openMenuImg').style.display = 'none';
-// 	} else {
-// 		document.getElementById('iconMenu').style.display = 'block'
-// 		document.getElementById('openMenuI').style.display = 'none';
-// 		document.getElementById('openMenuImg').style.display = 'block';
-// 	}
-// };
-
-
 function openMobMenu() {
-		document.getElementById('iconMenu').style.display = 'block'
-		document.getElementById('openMenuI').style.display = 'none';
-		document.getElementById('closeMenuImg').style.display = 'block';
-		document.getElementById("body").style.overflow = "hidden";
+	document.getElementById('iconMenu').style.display = 'block'
+	document.getElementById('openMenuI').style.display = 'none';
+	document.getElementById('closeMenuImg').style.display = 'block';
+	document.getElementById("body").style.overflow = "hidden";
 };
 
 function closeMobMenu() {
-	    document.getElementById('iconMenu').style.display = 'none';
-    	document.getElementById('openMenuI').style.display = 'block';
-    	document.getElementById('closeMenuImg').style.display = 'none';
-    	document.getElementById("body").style.overflow = "auto";
-}
+	document.getElementById('iconMenu').style.display = 'none';
+    document.getElementById('openMenuI').style.display = 'block';
+    document.getElementById('closeMenuImg').style.display = 'none';
+    document.getElementById("body").style.overflow = "auto";
+};
 
 
 function showWindow() {
