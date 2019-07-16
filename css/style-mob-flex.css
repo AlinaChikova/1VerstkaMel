@@ -1,0 +1,344 @@
+@media screen and (max-width: 900px) and (min-width: 500px) {
+
+	.card {
+		width: 50%;
+	}
+
+	.card-tag {
+		width: auto;
+	}
+
+	.card-title {
+		width: auto;
+	}
+
+	main {
+		padding-right: 30px;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	main>div {
+		padding-top: 15px;
+	}
+
+	#header-menu {
+		display: none;
+	}
+
+	#rigth-buttons {
+		display: none;		
+	}
+
+	#logo {		
+		position: absolute;
+   		margin-left: -6%;
+   		left: 50%;
+	}
+
+	header>div {
+		padding-right: 40px;
+		min-width: 100px;	
+		display: flex;
+   		justify-content: space-between;	
+	}
+
+	#mob-menu {
+		height: 70px;
+		width: auto;
+		float: right;
+		display: block;
+		text-align: right;
+	}
+
+	#mob-search {
+		height: 70px;
+		width: auto;
+		float: left;
+		display: block;
+	}
+
+	#mob-search>i {
+		color: #FFF;
+		font-size: 30px;
+    	padding-top: 80%;
+	}
+
+	#mob-menu>button>i {
+		color: #FFF;
+		font-size: 40px;
+	    padding-top: 43%;
+	}
+
+	#mob-menu>button {
+  		background-color: transparent;
+    	border: none;
+	}
+
+	#f-menu {
+		display: none;
+	}
+
+	#link {
+		display: none;
+	}
+
+	#copyright {
+		display: none;
+	}
+
+	.close-mob-menu {
+		display: none;
+	}
+
+	#iconMenu {
+		position: fixed;
+		height: 100%;
+   		width: 100%;
+		padding: 0;
+		display: none;
+   		right: 0;
+   		left: 0;
+   		background-color: rgba(33, 33, 33, 0.7);  
+    	z-index: 2000;
+    	overflow:  hidden; 
+	}
+
+	#iconMenu> ul>li>a {
+		font: 700 20px Proxima,sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		width: 100%;
+		height: 40px;
+		vertical-align: middle;
+	}
+
+	#iconMenu> ul>li>a:hover {
+	    color: #45b5ae;   
+	    transition-duration: 0.3s; 
+	}
+
+	#iconMenu> ul {
+ 	    width: 30%;
+ 	    margin: 0;
+	    height: auto;
+	    float: right;
+	    background-color: #212121;
+	    position: fixed;
+    	top: 70px; 
+    	right: 0;
+	}
+
+	#iconMenu> ul>li {
+ 		list-style-type: none; 
+ 		padding-bottom: 15px;
+	}
+
+	#closeMenuImg {
+		display: none;	
+	    width: 40px;
+	    padding-top: 15px;
+	    display: block;
+   		clear: left;
+    	padding: 15px;
+	}
+
+	#openMenu {
+		padding: 0;
+	}
+
+	#openMenu:focus {
+		outline: none;	
+	}
+
+	#openMenu:hover {
+		cursor: pointer;	
+	}
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+	
+	.card {
+		width: 33%;
+	}
+		
+	#blog {
+		display: none;
+	}
+
+	.icon {
+		font-weight: 600;
+	}
+
+	#edit {
+		font-weight: 500;
+	}
+
+	header>div {
+		min-width: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	.card {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+		
+	.card-tag {
+		width: auto;
+	}
+
+	.card-title {
+		width: auto;
+	}
+
+	main {
+		padding-right: 30px;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	main>div {
+		padding-top: 15px;
+	}
+
+	#header-menu {
+		display: none;
+	}
+
+	#rigth-buttons {
+		display: none;		
+	}
+
+	#logo {		
+		position: absolute;
+   		margin-left: -6%;
+   		left: 50%;
+	}
+
+	header>div {
+		padding-right: 40px;
+		min-width: 100px;	
+		display: flex;
+   		justify-content: space-between;	
+	}
+
+	#mob-menu {
+		height: 70px;
+		width: auto;
+		float: right;
+		display: block;
+		text-align: right;
+	}
+
+	#mob-search {
+		height: 70px;
+		width: auto;
+		float: left;
+		display: block;
+	}
+
+	#mob-search>i {
+		color: #FFF;
+		font-size: 30px;
+    	padding-top: 80%;
+	}
+
+	#mob-menu>button>i {
+		color: #FFF;
+		font-size: 40px;
+	    padding-top: 43%;
+	}
+
+	#mob-menu>button {
+  		background-color: transparent;
+    	border: none;
+	}
+
+	#f-menu {
+		display: none;
+	}
+
+	#link {
+		display: none;
+	}
+
+	#copyright {
+		display: none;
+	}
+
+	.close-mob-menu {
+		display: none;
+	}
+
+	#iconMenu {
+		position: fixed;
+		height: 100%;
+   		width: 100%;
+		padding: 0;
+		display: none;
+   		right: 0;
+   		left: 0;
+   		background-color: rgba(33, 33, 33, 0.7);  
+    	z-index: 2000;
+    	overflow:  hidden; 
+	}
+
+	#iconMenu> ul>li>a {
+		font: 700 20px Proxima,sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		width: 100%;
+		height: 40px;
+		vertical-align: middle;
+	}
+
+	#iconMenu> ul>li>a:hover {
+	    color: #45b5ae;   
+	    transition-duration: 0.3s; 
+	}
+
+	#iconMenu> ul {
+ 	    width: 30%;
+ 	    margin: 0;
+	    height: auto;
+	    float: right;
+	    background-color: #212121;
+	    position: fixed;
+    	top: 70px; 
+    	right: 0;
+	}
+
+	#iconMenu> ul>li {
+ 		list-style-type: none; 
+ 		padding-bottom: 15px;
+	}
+
+	#closeMenuImg {
+		display: none;	
+	    width: 40px;
+	    padding-top: 15px;
+	    display: block;
+   		clear: left;
+    	padding: 15px;
+	}
+
+	#openMenu {
+		padding: 0;
+	}
+
+	#openMenu:focus {
+		outline: none;	
+	}
+
+	#openMenu:hover {
+		cursor: pointer;	
+	}
+}

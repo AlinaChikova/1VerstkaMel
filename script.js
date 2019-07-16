@@ -69,40 +69,55 @@ function more() {
 	if (j<=content.length) {						
 		for (let i = 0; i < 4; i++) {
 			var div = document.createElement('div');
+			div.className = "card";
 			div.innerHTML = 
-				`<div class="card">
-					<a href="">
-						<div class="card-image">
-							<img src="${content[j][i].image}">
+				`<a href="">
+					<div class="card-image">
+						<img src="${content[j][i].image}">
+					</div>
+					<div>
+						<div class="card-tag">${content[j][i].tag}</div>
+						<div class="card-title">${content[j][i].title}</div>
+						<div class="card-time">
+							<i class="far fa-clock"></i>
+							<span>${content[j][i].time}</span>
 						</div>
-						<div>
-							<div class="card-tag">${content[j][i].tag}</div>
-							<div class="card-title">${content[j][i].title}</div>
-							<div class="card-time">
-								<i class="far fa-clock"></i>
-								<span>${content[j][i].time}</span>
-							</div>
-						</div>
-					</a>
-				</div> `;
+					</div>
+				</a>`;
 			parent.appendChild(div);
 		}	
 	}					
     return j++;
 };
 
-document.getElementById('openMenu').onclick = function() {
+// document.getElementById('openMenu').onclick = function() {
 
-	if (document.getElementById('iconMenu').style.display == 'block') {		
-    	document.getElementById('iconMenu').style.display = 'none';
-    	document.getElementById('openMenuI').style.display = 'block';
-    	document.getElementById('openMenuImg').style.display = 'none';
-	} else {
+// 	if (document.getElementById('iconMenu').style.display == 'block') {		
+//     	document.getElementById('iconMenu').style.display = 'none';
+//     	document.getElementById('openMenuI').style.display = 'block';
+//     	document.getElementById('openMenuImg').style.display = 'none';
+// 	} else {
+// 		document.getElementById('iconMenu').style.display = 'block'
+// 		document.getElementById('openMenuI').style.display = 'none';
+// 		document.getElementById('openMenuImg').style.display = 'block';
+// 	}
+// };
+
+
+function openMobMenu() {
 		document.getElementById('iconMenu').style.display = 'block'
 		document.getElementById('openMenuI').style.display = 'none';
-		document.getElementById('openMenuImg').style.display = 'block';
-	}
+		document.getElementById('closeMenuImg').style.display = 'block';
+		document.getElementById("body").style.overflow = "hidden";
 };
+
+function closeMobMenu() {
+	    document.getElementById('iconMenu').style.display = 'none';
+    	document.getElementById('openMenuI').style.display = 'block';
+    	document.getElementById('closeMenuImg').style.display = 'none';
+    	document.getElementById("body").style.overflow = "auto";
+}
+
 
 function showWindow() {
 	document.getElementById('window').style.display = 'block';
@@ -116,14 +131,14 @@ function closeWindow() {
 function checkEmail() {
 
 	var reg = /[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}/;
-	var email = document.getElementById( "email" ).value;
+	var email = document.getElementById("email").value;
 
-	if ( reg.test( email )) {
+	if (reg.test(email)) {
 		showWindow();
-	} else if ( email.length < 1 ) {
-		alert( "Введите email" );
+	} else if (email.length < 1) {
+		alert("Введите email");
 	} else {
-		alert( "Неверный формат" );
+		alert("Неверный формат");
 	};
 };
 
