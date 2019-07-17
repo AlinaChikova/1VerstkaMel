@@ -252,7 +252,7 @@ main {
 .card-time {
 	text-align: center;
 	height: 23px;	
-	padding-bottom: 25px;    
+	padding-bottom: 10px;    
 	margin-top: 20px;
 }
 
@@ -277,10 +277,10 @@ main {
  	padding-bottom: 20px;
  	padding-top: 20px;
  	display: flex;
- 	justify-content: center;
+ 	justify-content: space-evenly;
 }
 
-#article {
+#but>button {
  	height: 46px;
  	width: auto;
  	border-radius: 23px;
@@ -292,12 +292,21 @@ main {
  	color: #FFF; 	
 }
 
-#article:hover {
+#but>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#sort {
+	width: 202px;
+}
+
+#but>button:hover {
  	background-color: #4bc0b8;
  	transition-duration: 0.3s; 
 }
 
-#article:focus {
+#but>button:focus {
 	outline: none;
 }
 
@@ -465,4 +474,12 @@ main {
 #copyright {
  	color: #fff;
  	font: 14px/24px roboto-regular,Arial,sans-serif;
+}
+
+.card-date {
+	text-align: center;
+	font: 10px Proxima,sans-serif;
+	margin: 0 0 10px 0;
+	color: #a1a3a3;;
+
 }
