@@ -170,57 +170,39 @@ function sort() {
 	return content;
 };
 
+function filter() {
+	var start = document.getElementById("start").value;
+	var end = document.getElementById("end").value;
+	var filterContent = [];	
+	
+	var j = 0;
 
-// function filter() {
-// 	var start = document.getElementById("start").value;
-// 	var end = document.getElementById("end").value;
-// 	var f = 0;
-// 	var filterContent = [];
+	for (i = 0; i<content.length; i++) {
+		if (Date.parse(start) <= Date.parse(content[i].data) && Date.parse(content[i].data)<= Date.parse(end))  {
+			filterContent[j++] = content[i];			
+		};
+	};
+	
+	deleteCard(content.length);
 
-// 	for (i = 0; i<content.length; i++) {
-// 		if (Date.parse(start) < Date.parse(content[i].data) || Date.parse(content[i].data) > Date.parse(end)) {
-// 			filterContent[f] = content[i];
-// 			f++;		
-// 		};
-// 	};
-
-// 	for (i = 0; i<filterContent.length; i++) {
-// 		alert(filterContent[i].data);
-// 	}
-
-// 	deleteCard(j);
-// 	j = 0;
-// 	// moreFilter();
-// };
-
-
-// function moreFilter() {	
-// 						alert("5555");
-// 		for (var i = 0; i < 5; i++) {
-// 			alert("4444");
-// 			var div = document.createElement('div');
-// 			div.className = "card";
-// 			div.innerHTML = 
-// 				`<a href="">
-// 					<div class="card-image">
-// 						<img src="${filterContent[i].image}">
-// 					</div>
-// 					<div>
-// 						<div class="card-tag">${filterContent[i].tag}</div>
-// 						<div class="card-title">${filterContent[i].title}</div>
-// 						<div class="card-time">
-// 							<i class="far fa-clock"></i>
-// 							<span>${filterContent[i].time}</span>
-// 						</div>
-// 						<p class="card-date">${filterContent[i].data}</p>
-// 					</div>
-// 				</a>`;
-// 			parent.appendChild(div);
-		
-// 	}					
-  
-// };
-
-
-
-
+	for (i = 0; i < filterContent.length; i++) {
+		var div = document.createElement('div');
+		div.className = "card";
+		div.innerHTML = 
+			`<a href="">
+				<div class="card-image">
+					<img src="${filterContent[i].image}">
+				</div>
+				<div>
+					<div class="card-tag">${filterContent[i].tag}</div>
+					<div class="card-title">${filterContent[i].title}</div>
+					<div class="card-time">
+						<i class="far fa-clock"></i>
+						<span>${filterContent[i].time}</span>
+					</div>
+					<p class="card-date">${filterContent[i].data}</p>
+				</div>
+			</a>`;
+		parent.appendChild(div);			
+	};	
+};
